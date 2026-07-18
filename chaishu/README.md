@@ -139,8 +139,7 @@ Reference 文件**按需加载**：SKILL.md 只保留规则和流程，细节在
 
 ## 背景
 
-- **方法论来源**：一场「AI 时代拆书法」拆书会（2026-06-30，讲者要求匿名）上演示的六步拆书法，及该讲者拆《AI 2041》的完整实践
-- **Skill 工程框架**：半肥猫的 Skill 开发方法论（诊断协议、证据校准、反例测试）
+- **方法论来源**：一场「AI 时代拆书法」拆书会上演示的六步拆书法，及该讲者拆《AI 2041》的完整实践
 - **联网搜索**：[Agent Reach](https://github.com/Panniantong/Agent-Reach)（可选依赖，by Panniantong）
 
 ## License
