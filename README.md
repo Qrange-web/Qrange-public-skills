@@ -8,7 +8,7 @@ Qrange 的公开 Agent Skill 集合。每个 Skill 是一个独立文件夹，�
 |---|---|---|
 | [methodology-bsc](methodology-bsc/) | 平衡计分卡（BSC）业务复盘：把零散业务数据追问成有因果逻辑的结构化复盘文档 | v2.0 |
 | [fupan-assistant](fupan-assistant/) | 引导式追问 + 结构化沉淀的复盘助手：从「感觉不错/不太好」深挖到根因、模型、能力层 | v2.0 |
-| [course-mainline-v2](course-mainline-v2/) | 课程/书籍/分享等任意材料 → 标准化 9 模块主线文档 | v0.2.0 |
+| [course-mainline-v2](course-mainline-v2/) | 课程/书籍/分享等任意材料 → 标准化 9 模块主线文档 | v0.3.0 |
 | [tizhinei-writing](tizhinei-writing/) | 体制内文风写作：公文风格的改写与起草 | v0.2.0 |
 | [chaishu](chaishu/) | 六步拆书法：非虚构书籍批判性拆解——查出作者的椅子，在盲区上长出你自己的认知 | v0.1.0 |
 

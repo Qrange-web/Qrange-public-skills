@@ -1,7 +1,7 @@
 ---
 name: course-mainline
 description: "This skill should be used when the user provides course/book/sharing materials (any format: Markdown, PPT text, transcripts, book chapters, etc.) and asks to \"提取主线\", \"整理课程主线\", \"提取这本书的主线\", \"整理这本书\", \"提取这本书的内容\", \"提取这本书的方法\", \"萃取这本书\" for processing."
-version: 0.2.0
+version: 0.3.0
 ---
 # 课程主线提取
 
@@ -92,10 +92,21 @@ version: 0.2.0
 
 向用户汇报模板在多门课检验后是否仍然稳定。一句话即可。
 
+## 完成后：审计 + 修复（交付前）
+
+产出课程主线后、交付给用户前，先做一轮审计并修复。审计的 4 个维度（可靠性 / 信息完整性 / 框架忠实度 / 格式）及完整检查清单见 `references/审计清单.md`。
+
+- 格式维度：跑 `references/checks.py`
+- 其余三维度：逐条对照源材料检查
+- 红线：引号内必须是逐字原文；概括必须移出引号并标注「编者概括」
+- 审计只出报告不擅自改，修复需用户确认
+- 审计 + 修复通过后，才交付最终文档
+
 ## Bundled Resources
 
 - **`references/课程主线-产出模板.md`** — 9 模块标准化模板
 - **`references/checks.py`** — 自动化质量检查脚本（bold balance / heading hierarchy / bold-period / module count / Section 5 existence）。用 `python3 references/checks.py <path>` 运行
+- **`references/审计清单.md`** — 产出后审计的 4 维度检查清单（可靠性 / 信息完整性 / 框架忠实度 / 格式）
 
 ### Examples
 
